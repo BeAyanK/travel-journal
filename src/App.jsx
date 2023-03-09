@@ -34,7 +34,7 @@ export default function App() {
       
       />
       <Card
-        image="/public/images/greece.jpg"
+        image="./greece.jpg"
         title="GREECE"
         map="https://goo.gl/maps/sKZ192f4HVk5rMt58"
         place="Santorini"
