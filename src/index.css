@@ -1,0 +1,122 @@
+body {
+  font-family: "Inter";
+  background-color: #f8f8f8;
+  width: auto;
+
+}
+
+/* app {
+  width: 700px;
+  align-content: center;
+} */
+
+nav {
+  display: flex;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #FA5252;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: -10px;
+  /* border-radius: 10px 10px 0px 0px; */
+}
+
+nav > div {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  margin: auto;
+  margin-block: 5px;
+}
+
+nav > div > img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  color: #2B283A;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 40px 55px;
+}
+
+
+.card > .card-image >img {
+  position: absolute;
+  width: 225px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card > .card-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-left: 250px;
+}
+
+.card > .card-content > .card-map{
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  margin: 15px 0px;
+}
+
+.card > .card-content > .card-map > a{
+  display: flex;
+  color: #918E9B;
+  margin: 1px 0px 0px 15px;
+}
+
+.card > .card-content > .card-map > img{
+  padding-top: 4px;
+}
+
+.card > .card-content > .card-map > a:hover{
+  color: #2B283A;
+}
+
+.card > .card-content > .card-map > p{
+  margin:2px 0px 0px 5px;
+}
+
+.card > .card-content > .card-place {
+  display: flex;
+  height: 40px;
+  font-size: 40px;
+  margin-top: -5px;
+}
+
+.card > .card-content > .card-desc{
+  display: flex;
+  margin-top: 5px;
+  /* width: 600px; */
+  line-break: normal;
+}
+
+footer{
+  height: 100px;
+  color: white;
+  background-color: #FA5252;
+  /* border-radius: 0px 0px 10px 10px; */
+  text-align: center;
+  margin: -10px;
+}
+
+footer > p{
+  padding-top: 20px;
+}
+
+.f-contact > a >img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
